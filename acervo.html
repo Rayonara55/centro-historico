@@ -13,18 +13,18 @@
     <link rel="stylesheet" type="text/css "href="css/estilo.css">
 </head>
 <body>
-	<div class="container">
+	
 		<div class="row mt-5 justify-content-center">
            <div>
            	 <img src="img/imagem4.png" class="img-fluid">
            </div>
 		</div>
-	</div>
+	
 	<br>
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-primary ">
 		<a class="navbar-brand text-white " href="#"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse justify-content-end"id=navbarNavDropdown">
@@ -36,14 +36,14 @@
 					<a class="nav-link text-white "href="agendamentos.html">Agendamentos</a>
 				</li>
 				<li class="nav-item ">
-				   <a class="nav-link text-white" href="acervo.html">Acervo</a>
+				   <a class="nav-link text-white" href="#">Acervo</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">galeria de fotos</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item " href="educacao.html">Galeria Educação</a>
-						<a class="dropdown-item " href="politica.html">Galeria Politica</a>
-						<a class="dropdown-item " href="#">Galeria Agricultura</a>
+						<a class="dropdown-item text-white" href="#">Galeria Educação</a>
+						<a class="dropdown-item text-white" href="#">Galeria Politica</a>
+						<a class="dropdown-item text-white" href="#">Galeria Agricultura</a>
 					</div>
 				</li>
 			   <li class="nav-item">
@@ -53,9 +53,7 @@
 		</div>
 	</nav>
 
-
-	<!-- Modal -->
-      <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       	<div class="modal-dialog">
       		<div class="modal-content">
       			<div class="modal-header">
@@ -89,66 +87,86 @@
       		</div>
       	</div>
       </div>
+  
+	<section class="seção-fotos">
+		<div class="container my-5">
+			<div class="row">	
 
-	<div class="container">
-		<div class="row">
-			<div class="col-12 text-center my-5"> <!-- my-5 p o titulo descer-->
-				<h1 class="display-5 estilo-letra-agendamento"><i class="fas fa-paper-plane text-primary "></i>Preencha este formulário para agendar sua visita !</h1> 	
-			</div>	
-		</div>
-	</div>
-     
-	<div class="row justify-content-center mb-5">
-		<div class="col-sm-12 col-md-10 col-lg-8">
-
-			<form>
-				<div class="row">
-					<div class="form-group col-sm-6">
-
-						<label for="inputNome">Instituição ou pessoa física</label>	
-						<input type="text" class="form-control" id="inputNome" placeholder="digite o nome da instituição ou nome físico">
-
-					</div>
-
-                   <div class="form-group col-sm-6">
-
-						<label for="e-mail">E-mail</label>	
-						<input type="text" class="form-control" id="e-mail" placeholder="Digite seu E-mail">
-
-					</div>
+				<div class="col-md-3">	
+					<div class="card my-3">
+						<img class="card-img-top" src="img/imagem6.jpg" alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 class="card-title">Praia do RN</h5>
+							<p class="card-text">RIO GRANDE DO NORTE, O ESTADO MAIS LINDO</p>
+						</div>
+						<div class="card-body">
+							<!--	<a href="#" class="card-link">Link do card</a> -->
+							<a href="politica.html" class="card-link btn btn-primary btn-block">Veja mais fotos</a>
+						</div>
+					</div> 	
 				</div>
-	
-              <div class="row">
 
-                 <div class="form-group col-sm-4">
+				<div class="col-md-3"> 
+					<div class="card my-3">
+						<img class="card-img-top" src="img/imagem7.jpg" alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 class="card-title">Praia do RN</h5>
+							<p class="card-text">RIO GRANDE DO NORTE, O ESTADO MAIS LINDO</p>
+						</div>
+						<div class="card-body">
+							<!--	<a href="#" class="card-link">Link do card</a> -->
+							<a href="#" class="card-link btn btn-primary btn-block">Veja mais fotos</a>
+						</div>
+					</div> 	
+				</div>
+				<div class="col-md-3">
+					<div class="card my-3">
+						<img class="card-img-top" src="img/imagem8.jpg" alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 class="card-title">Praia do RN</h5>
+							<p class="card-text">RIO GRANDE DO NORTE, O ESTADO MAIS LINDO</p>
+						</div>
+						<div class="card-body">
+							<!--	<a href="#" class="card-link">Link do card</a> -->
+							<a href="#" class="card-link btn btn-primary btn-block">Veja mais fotos</a>
+						</div>
+					</div> 	
+				</div>
 
-						<label for="inputCidade">Cidade</label>	
-						<input type="text" class="form-control" id="inputCidade" placeholder="Digite o nome da cidade">
+				<div class="col-md-3">
+					<div class="card my-3">
+						<img class="card-img-top" src="img/imagem8.jpg" alt="Imagem de capa do card">
+						<div class="card-body">
+							<h5 class="card-title">Praia do RN</h5>
+							<p class="card-text">RIO GRANDE DO NORTE, O ESTADO MAIS LINDO</p>
+						</div>
+						<div class="card-body">
+							<!--	<a href="#" class="card-link">Link do card</a> -->
+							<a href="#" class="card-link btn btn-primary btn-block">Veja mais fotos</a>
+						</div>
+					</div> 	
+				</div>
 
-					</div>
+				
+			
 
-					<div class="form-group col-sm-4">
 
-						<label for="hora">Horário</label>	
-						<input type="time"  class="form-control" id="hora" placeholder="Informe o horário do agendamento">
 
-					</div>
 
-					<div class="form-group col-sm-4">
-
-						<label for="semana">Data</label>	
-						<input type="date"  class="form-control" name="semana" id="semana" placeholder="Informe o dia da semana">
-                    
-					</div>
-                   
-              </div>	
-			  <input class="btn btn-primary" type="submit" value="Enviar">
-			</form>
+			</div>
 		</div>
-	</div>
+	</section>
 
-	
+     
 
 
+
+
+
+   
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

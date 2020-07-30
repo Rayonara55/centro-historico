@@ -1,8 +1,42 @@
+
+
+/* css do projeto */
+ 
 .nav-item {
    font-style: italic;
+   text-transform: uppercase;
 }
 
 .estilo-letra-agendamento {
   font-family: 'Grenze Gotisch', cursive;
 }
 
+/*
+a:hover {
+   background-color: rgb(176,224,230);
+   
+}  
+*/
+.seção-fotos{
+	background-image: linear-gradient(blue,white);
+}
+
+.card {
+	width: 15em;
+}
+
+
+.card-body {
+	padding: 0.5em;
+}
+
+footer {
+	background-image: linear-gradient(to right, blue , white);
+}
+
+
+.estilo-rodape {
+ font-family: 'Rowdies', cursive;
+}
+
+/* estilo do rascunho*/
