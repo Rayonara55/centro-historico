@@ -1,6 +1,7 @@
 
 
 /* css do projeto */
+
  
 .nav-item {
    font-style: italic;
@@ -39,4 +40,14 @@ footer {
  font-family: 'Rowdies', cursive;
 }
 
-/* estilo do rascunho*/
+.scrollspySite {
+	position: relative;
+	overflow: auto;
+	height: 380px;
+
+}
+
+.foto-1 {
+	width: 400px;
+}
+
