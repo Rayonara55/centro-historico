@@ -1,6 +1,9 @@
 
 
 /* css do projeto */
+/*body {
+  background-color: #4f93c7;
+}*/
 
  
 .nav-item {
@@ -32,9 +35,9 @@ a:hover {
 }
 
 footer {
-	background-image: linear-gradient(to right, blue , white);
-}
+	color: #aaa; background-color: #2f2f2f;
 
+}
 
 .estilo-rodape {
  font-family: 'Rowdies', cursive;
@@ -47,7 +50,82 @@ footer {
 
 }
 
-.foto-1 {
-	width: 400px;
+/*body {
+    background-color:#969fab;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  }*/
+
+ .container-imagens {
+    width:700px;
+    margin:30px auto 0;
+
+ }
+ 
+ header h3 {
+    color:#fff;
+    text-align:center;
+    padding-top:3px;
+    font-size:16px;
+    word-spacing:1px;
+    text-shadow:1px 1px 2px #000; 
+ }
+   
+#content {
+   background:#848c9c;
+   background:linear-gradient(to top, #848c9c 0%, #687080 50%, #a7b1c1c5 100%);
+   background:-webkit-linear-gradient (bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+   padding-top:30px;
+   padding-bottom:30px;
+   overflow:hidden;      
+  
+ }
+
+.gallery {
+    width:528px;
+    margin:auto;
+ }
+ 
+.gallery ul {
+     list-style: none;
+ }
+ 
+ .gallery li {
+     float:left;
+     margin:10px;
+ }
+
+.gallery img {
+     display:block;
+     padding:5px;
+     background:#42517f;
+     border: 1px solid #99adeb;
 }
+
+.gallery img:hover {
+    border: 1px solid #fff;
+}
+
+.cabecalho-do-album{
+	background:#42517f;
+    border-bottom: 1px solid #000;
+}
+
+.content-section {
+   background:#848c9c;
+   background:linear-gradient(to top, #848c9c 0%, #687080 50%, #a7b1c1c5 100%);
+   background:-webkit-linear-gradient (bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+   padding-top:50px;
+   padding-left:20px;
+   padding-right: 20px; 
+   padding-bottom:30px;
+   overflow:hidden;
+   margin-bottom: 20px;
+
+}
+
+/*codigo para mudar a bara de naveção do boostrap */
+
+/*.bg-verde {
+  background-color: #DB7093;
+}*/ 
 
